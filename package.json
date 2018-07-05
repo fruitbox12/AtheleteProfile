@@ -12,7 +12,8 @@
     "mongoose": "*",
     "cors": "*",
     "body-parser": "*",
-    "connect": "*"
+    "connect": "*",
+    "express-validator": "*"
   },
   "author": "Ritesh Tawde",
   "license": "ISC"
