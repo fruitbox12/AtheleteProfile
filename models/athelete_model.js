@@ -13,9 +13,9 @@ const athleteSchema = mongoose.Schema({
 	about: { type: String, required: false},
 	interests: [{ type: String, required: false}],
 	smm_handles: [{ type: String, required: false}],
-	pets: { type: String, required: false},
-	alchohol: { type: String, required: false},
-	married: { type: String, required: false}
+	pets: { type: Boolean, required: false},
+	alchohol: { type: Boolean, required: false},
+	married: { type: Boolean, required: false}
   //image: { type: String, required: false}
 });
 
