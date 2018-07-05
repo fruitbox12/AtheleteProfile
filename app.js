@@ -30,11 +30,12 @@ app.use(bodyParser.urlencoded({
 
 app.use('/atheletes', atheletes);
 
+app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use(bodyParser.json({ type: 'application/json' }));
 
 app.get('/', (req, res) => {
-	res.send('Currently unavailable');
+	res.send('Hello world');
 });
 
 app.listen(port, () => {

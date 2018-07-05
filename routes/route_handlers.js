@@ -1,11 +1,20 @@
 const express = require('express');
 const router = express.Router();
 const config = require('../config/database');
+//const awsconfig = require('../config/aws.json');
 const Athelete = require('../models/athelete_model');
+//const aws = require('aws-sdk');
+const fs = require('fs');
 
 //validator
 const {check, validationResult} = require('express-validator/check');
 
+/*
+aws.config.loadFromPath(awsconfig);
+let s3 = new aws.s3({apiVersion: '2006-03-01'});
+let s3Bucket = new aws.s3();
+let uplaodParams = {Bucket : '', Key : '', Body : ''};
+*/
 //errors
 
 let get_error = function(msg){

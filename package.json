@@ -13,7 +13,8 @@
     "cors": "*",
     "body-parser": "*",
     "connect": "*",
-    "express-validator": "*"
+    "express-validator": "*",
+    "aws-sdk": "*"
   },
   "author": "Ritesh Tawde",
   "license": "ISC"

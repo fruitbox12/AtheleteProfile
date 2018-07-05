@@ -2,20 +2,20 @@ const mongoose = require('mongoose');
 const config = require('../config/database');
 
 const athleteSchema = mongoose.Schema({
-  name: { type: String, required: true },
-  dateOfBirth: { type: Date, required: false },
-  gender: { type: String, required: true },
-  nationality: { type: String, required: true },
-  location: { type: String, required: false},
-  sports:  [{ type: String, required: true }],
-  association: { type: String, required: false},
-  team: { type: String, required: true},
-  about: { type: String, required: false},
-  interests: [{ type: String, required: false}],
-  smm_handles: [{ type: String, required: false}],
-  pets: { type: Boolean, required: false},
-  alchohol: { type: Boolean, required: false},
-  married: { type: Boolean, required: false}
+	name: { type: String, required: true },
+	dateOfBirth: { type: Date, required: false },
+	gender: { type: String, required: true },
+	nationality: { type: String, required: true },
+	location: { type: String, required: false},
+	sports:  [{ type: String, required: true }],
+	association: { type: String, required: false},
+	team: { type: String, required: true},
+	about: { type: String, required: false},
+	interests: [{ type: String, required: false}],
+	smm_handles: [{ type: String, required: false}],
+	pets: { type: String, required: false},
+	alchohol: { type: String, required: false},
+	married: { type: String, required: false}
   //image: { type: String, required: false}
 });
 
