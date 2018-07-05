@@ -1,0 +1,19 @@
+{
+  "name": "atheleteprofile",
+  "version": "1.0.0",
+  "description": "athelete profile",
+  "main": "app.js",
+  "scripts": {
+    "test": " ",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "cors": "*",
+    "body-parser": "*",
+    "connect": "*"
+  },
+  "author": "Ritesh Tawde",
+  "license": "ISC"
+}
